@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+}
+
+h1 {
+    background-color: yellow;
+    padding: 15px;
+    margin: 0;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+th {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: 2px solid yellow;
+}
+
+td {
+    background-color: #90ee90; /* light green */
+    padding: 10px;
+    text-align: center;
+    border: 2px solid yellow;
+}
