@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.storelocator{
+    
+}
+.mainheading{
+    text-align: center;
+    font-size: 50px;
+}
+
+.subheading{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(41, 183, 41);
+}
+
+.homepage{
+    text-decoration: none;
+    color: rgb(130, 127, 127);
+}
+
+.homepage:hover{
+    color: rgb(41, 183, 41);
+}
+
+.storecontact{
+     /* flex: 1;
+            margin: 10px 15%; */
+}
+
+.mapSection{
+    /* flex: 1; */
+}
+
+</style>
+<body>
+    <div class="storelocator">
+        <h1 class="mainheading">Store Locator</h1>
+<h3 class="subheading"><a href="#" class="homepage">Home - </a>Store Locator</h3>
+
+        <div class="storecontact">
+            <h3>Search For A Natural Ice Cream Store Near You</h3>
+    
+        <select id="select state" name="state">
+            <option value="apple">select state</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Uttar pradesh">Uttar pradesh</option>
+            <option value="Goa">Goa</option>
+        </select>
+        
+        <select name="select city" id="city">
+            <option value="Select A City">Select A City</option>
+            </select>  
+
+        <i class="fa-solid fa-location-dot"></i> <button>Use my location</button> 
+        
+        <button>Search</button>
+         </div>
+
+    <div class="mapSection" style="text-align: right;">
+        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.6240991074305!2d73.75057237496478!3d18.590978282516293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2beb5315379ab%3A0x7745e38574812a65!2sWisdom%20Sprouts%20IT%20Training%20Hub%20%7C%20Java%2C%20Python%2C%20MERN%20Full%20Stack%20IT%20Courses!5e0!3m2!1sen!2sin!4v1746695614682!5m2!1sen!2sin"
+        style="border:0; width: 40%;height: 400px; margin-top: 20px; " allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    </div>
+</body>
+</html>

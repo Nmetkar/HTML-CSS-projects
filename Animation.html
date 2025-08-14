@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>googlebar</title>
+</head>
+<style>
+
+        /* Animation */
+
+        .Animation_con{
+          position: relative;
+      
+        }
+        .Animation_con img{
+          width: 800px;
+          height: 400px;
+          margin-left: 200px;
+          position: relative;
+    
+        }
+
+       .moon i{
+          font-size: 50px;
+          color: white;
+          position: absolute;
+          left: 500px;
+          top: 40px;
+           animation-name: A;
+          animation-duration: 10s;
+        }
+
+        @keyframes A{
+          0%{
+            color: rgb(198, 190, 190);
+          }
+          25%{
+            color: rgb(228, 228, 155);
+          }
+          50%{
+            color: yellow;
+          }
+          100%{
+            color: rgb(167, 167, 9);
+          }
+        }
+
+        .star i{
+          font-size: 20px;
+          color: white;
+           position: absolute;
+          left: 700px;
+          top: 100px;
+           animation-name: B;
+          animation-duration: 2s;
+          animation-iteration-count: infinite;
+        }
+        @keyframes B{
+          from{
+            color: white;
+          }
+          To{
+            color: rgb(248, 248, 56);
+          }
+        }
+
+        .halfstar{
+          font-size: 20px;
+          color: white;
+           position: absolute;
+          left: 400px;
+          top: 150px;
+           animation-name: C;
+          animation-duration: 2s;
+          animation-iteration-count: 10;
+        }
+
+        @keyframes C{
+          from{
+            color: white;
+          }
+          To{
+            color: rgb(248, 248, 56);
+          }
+        }
+
+        .Animation {
+          background-color: rgb(226, 43, 180);
+          height: 20px;
+          width: 150px;
+          text-align: center;
+          margin-top: 30px;
+          padding: 20px;
+          border: 4px solid greenyellow;
+          position: relative;
+          animation-name: A1;
+          animation-duration: 8s;
+          animation-delay: 1s;
+          animation-direction: alternate-reverse; 
+          animation-iteration-count: 2;
+        }
+
+        @keyframes A1{
+          0%{
+            background-color:blue; left:0px; top:0px;
+            border: 4px solid yellow;
+          }
+          50%{
+            background-color:red; left:800px; top:0px;
+            border: 4px solid green;
+          }
+        }
+
+
+      .Acontainer{
+         background-color: black;
+        height: 400px;
+         width: 400px;
+         margin-left: 400px;
+          position: relative;
+      }
+
+      .pink{
+         height: 40px;
+         width: 10px;
+         position: absolute;
+         border-radius: 5px;
+         top: 38%;
+         left: 34%;
+         animation-name: P1;
+         animation-duration: 2s;
+         animation-delay: 1s;
+         animation-direction: alternate; 
+         animation-iteration-count: infinite; 
+      }
+
+      .red{
+         height: 60px;
+         width: 10px;
+         position: absolute;
+         border-radius: 5px;
+         top: 35%;
+         left: 38%; 
+         animation-name: R1;
+         animation-duration: 2s;
+         animation-delay: 1s;
+         animation-direction: alternate; 
+         animation-iteration-count: infinite; 
+      }
+
+      .orange{
+         height: 80px;
+         width: 10px;
+         position: absolute;
+         border-radius: 5px;
+         top: 34%;
+         left: 42%;  
+         animation-name: O1;
+         animation-duration: 2s;
+         animation-delay: 1s;
+         animation-direction: alternate; 
+         animation-iteration-count: infinite; 
+      }
+
+      .green{
+         height: 90px;
+         width: 10px;
+         position: absolute;
+         border-radius: 5px;
+         top: 37%;
+         left: 46%;  
+         animation-name: G1;
+         animation-duration: 2s;
+         animation-delay: 1s;
+         animation-direction: alternate; 
+         animation-iteration-count: infinite; 
+      }
+      .blue{
+         height: 100px;
+         width: 10px;
+         position: absolute;
+         border-radius: 5px;
+         top: 40%;
+         left: 50%;  
+         animation-name: B1;
+         animation-duration: 2s;
+         animation-delay: 1s;
+         animation-direction: alternate; 
+         animation-iteration-count: infinite; 
+      }
+
+      .purple{
+         height: 90px;
+         width: 10px;
+         position: absolute;
+         border-radius: 5px;
+         top: 37%;
+         left: 54%; 
+         animation-name: Pu1;
+         animation-duration: 2s;
+         animation-delay: 1s;
+         animation-direction: alternate; 
+         animation-iteration-count: infinite; 
+      }
+
+      .lpink{
+         height: 80px;
+         width: 10px;
+         position: absolute;
+         border-radius: 5px;
+         top: 34%;
+         left: 58%; 
+         animation-name: Lp1;
+         animation-duration: 2s;
+         animation-delay: 1s;
+         animation-direction: alternate; 
+         animation-iteration-count: infinite;  
+      }
+
+      .rred{
+         height: 60px;
+         width: 10px;
+         position: absolute;
+         border-radius: 5px;
+         top: 35%;
+         left: 62%; 
+         animation-name: Rr1;
+         animation-duration: 2s;
+         animation-delay: 1s;
+         animation-direction: alternate; 
+         animation-iteration-count: infinite; 
+      }
+
+      .dorange{
+         height: 40px;
+         width: 10px;
+         position: absolute;
+         border-radius: 5px;
+         top: 38%;
+         left: 66%;
+         animation-name: Do1;
+         animation-duration: 2s;
+         animation-delay: 1s;
+         animation-direction: alternate; 
+         animation-iteration-count: infinite; 
+      }
+
+       @keyframes P1{
+        0%{
+           background-color: black;
+        }
+        50%{
+          background-color:  rgb(211, 41, 158);
+        }
+      }
+
+       @keyframes R1{
+        25%{
+           background-color: black;
+        }
+        100%{
+          background-color:  red;
+        }
+      }
+
+       @keyframes O1{
+        0%{
+           background-color: black;
+        }
+        50%{
+          background-color:  orange;
+        }
+      }
+
+       @keyframes G1{
+        25%{
+           background-color: black;
+        }
+        100%{
+          background-color: rgb(55, 175, 15) ;
+        }
+      }
+      
+       @keyframes B1{
+        0%{
+           background-color: black;
+        }
+        50%{
+          background-color: rgb(15, 130, 175);
+        }
+      }
+
+       @keyframes Pu1{
+        25%{
+           background-color: black;
+        }
+        100%{
+          background-color:  rgb(148, 15, 175);
+        }
+      }
+
+       @keyframes Lp1{
+        0%{
+           background-color: black;
+        }
+        50%{
+          background-color: rgb(211, 41, 158);
+        }
+      }
+
+       @keyframes Rr1{
+        25%{
+           background-color: black;
+        }
+        100%{
+          background-color: red;
+        }
+      }
+
+       @keyframes Do1{
+        0%{
+           background-color: black;
+        }
+        50%{
+          background-color: orange;
+        }
+      }
+</style>
+<body>
+
+    <!-- Animation moon -->
+    <div class="Animation_con">
+    <div>
+       <img src="./Grid/tree.jpg"> 
+      <div class="moon"><i class="fa-solid fa-moon"></i></div>
+      <div class="star"><i class="fa-solid fa-star" ></i></div>
+      <div class="halfstar"><i class="fa-regular fa-star-half-stroke"></i></div>
+    </div>
+  </div>
+
+<br>
+<br>
+
+<!-- Animation box -->
+<div class="Animation">Welcome to the page</div>
+
+<br>
+<br>
+
+<!-- Animation heart -->
+<div class="Acontainer">
+  <div class="pink"></div>
+  <div class="red"></div>
+  <div class="orange"></div>
+  <div class="green"></div>
+  <div class="blue"></div>
+  <div class="purple"></div>
+  <div class="lpink"></div>
+  <div class="rred"></div>
+  <div class="dorange"></div>
+</div>
+
+
+</body>
+</html>
+
+

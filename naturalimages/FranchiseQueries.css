@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.mainheading{
+    text-align: center;
+    font-size: 50px;
+}
+
+.subheading{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(41, 183, 41);
+}
+
+.homepage{
+    text-decoration: none;
+    color: rgb(130, 127, 127);
+}
+
+.homepage:hover{
+    color: rgb(41, 183, 41);
+}
+
+.info{
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.paraheading{
+    margin-top: 50px;
+}
+
+.pheading{
+    margin-top: 20px;
+}
+
+.pheading li{
+    font-size: large;
+    padding: 10px;
+
+}
+
+/* Formone */
+
+.formone{
+    height: 500px;
+    width: 85%;
+    margin-left: 90px;
+    background-color:  white;
+    margin-top: 40px; 
+    /* box-shadow: 0 0 5px 5px rgba(206, 202, 202, 0.5); */
+    box-shadow: 3px 3px 3px 3px rgb(239, 236, 236); 
+}
+
+.formheading{
+    text-align: center;
+    color: rgb(41, 183, 41);
+    padding: 60px;  
+}
+
+.rowInput{
+    display: flex;
+    justify-content:space-around;
+     margin-bottom: 20px;   
+}
+
+ .inputClass{
+    background-color:  rgb(229, 225, 225);
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    padding: 20px 400px;  
+   
+ }
+
+
+ .inputClass:focus{
+     outline:1px solid rgb(100, 179, 210);
+   box-shadow: 0 0 5px 5px rgb(100, 179, 210, 0.5);
+ }
+
+
+ .subrowInput{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 35px;
+    margin-right: 35px;
+    
+ }
+ .subinputClass{
+    background-color:  rgb(229, 225, 225);
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    padding: 20px 35px;  
+
+ }
+
+
+ /* FormTwo */
+
+.formTwo{
+    height: 450px;
+    width: 85%;
+    margin-left: 90px;
+    background-color:  white;
+    margin-top: 20px; 
+    box-shadow: 3px 3px 3px 3px rgb(239, 236, 236); 
+}
+
+.formheading{
+    text-align: center;
+    color: rgb(41, 183, 41);
+    padding: 60px;  
+}
+
+.rowInput{
+    display: flex;
+    justify-content:space-around;
+     margin-bottom: 20px;   
+}
+
+ .inputClass{
+    background-color:  rgb(229, 225, 225);
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    padding: 20px 400px;   
+ }
+
+  .inputClass:focus{
+    outline:1px solid rgb(100, 179, 210);
+   box-shadow: 0 0 5px 5px rgb(100, 179, 210, 0.5);
+ }
+
+.rowInputTwo{
+    display: flex;
+    justify-content: space-around;
+    /* margin-left: 60px;
+    margin-right: 60px; */
+}
+
+.subrowInputThree{
+    padding: 50px;
+    margin-left: 20px;
+}
+
+.subrowInputTwo{
+    width: 300px;
+}
+.subrowInputTwo select{
+    background-color: black;
+    font-size: 15px;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 30px;
+}
+
+  .inputClassTwo{
+    background-color:  rgb(229, 225, 225);
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    padding: 20px 120px;  
+   
+ }
+
+  .inputClassTwo:focus{
+    outline:1px solid rgb(100, 179, 210);
+   box-shadow: 0 0 5px 5px rgb(100, 179, 210, 0.5);
+ } 
+
+
+
+ /* Form 3 */
+
+ .formThree{
+
+    height: 550px;
+    width: 85%;
+    margin-left: 90px;
+    background-color:  white;
+    margin-top: 20px; 
+    box-shadow: 3px 3px 3px 3px rgb(239, 236, 236); 
+}
+
+.location input{
+    padding: 20px 160px;
+    margin-left: 40px;
+    margin-right: -20px;  
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+    background-color:  rgb(229, 225, 225);
+
+}
+
+.location_1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+     padding: 20px; 
+}
+
+.location_1 select{
+    background-color: black;
+    font-size: 15px;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 60px;
+}
+
+.sublocation_1{
+   margin-left: 50px;
+  
+
+}
+.location_2{
+    background-color:  rgb(229, 225, 225);
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    padding: 20px 405px;  
+    margin-left: 50px; 
+    margin-bottom: 20px;
+ }
+
+.location_3 input{
+    padding: 20px 155px;
+    margin-left:50px;
+    margin-right: -30px;  
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+    background-color:  rgb(229, 225, 225);
+    margin-bottom: 20px;
+
+}
+
+/* subscribe */
+
+.subscribe{
+    margin-left: 100px;
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 100px;  
+}
+
+.BTN{
+  text-align: center;
+  padding: 30px;
+   
+}
+
+.resetBTN{
+    padding: 12px 45px;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    border: none;
+    border-radius: 5px 5px 5px 5px; 
+}
+
+.submitBTN{
+    padding: 12px 45px;
+    background-color: rgb(33, 178, 33);
+    color: white;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+}

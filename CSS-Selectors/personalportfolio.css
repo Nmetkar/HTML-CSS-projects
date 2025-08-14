@@ -1,0 +1,71 @@
+/* Type selector */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+/* ID selector */
+#header {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Descendant selector */
+#header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+/* Pseudo-class selector */
+#header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Class selector */
+.section-title {
+    font-size: 1.4em;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Attribute selector */
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Button styling */
+button {
+    background-color: teal;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: darkcyan;
+}
+
+/* Project box styling */
+.project {
+    background-color: white;
+    padding: 15px;
+    border-left: 4px solid teal;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}

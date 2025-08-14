@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>googlebar</title>
+</head>
+<style>
+
+  /* gridcontanier */
+  .gridcontanier{
+  display: grid;
+  background-color: rgb(228, 225, 225);
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px;
+  width: 600px;
+  height: 600px;
+  text-align: center;
+  padding: 30px;
+
+  }
+
+  .gridcontanier >div{
+    padding: 10px;
+    border: 1px solid rgb(241, 233, 233);
+  }
+
+  .image_grid img{
+      height: 180px;
+      width: 180px;
+      translate: transform ;
+  }
+
+   .image_grid img:hover{
+    transform: scale(1.3);
+     border: 1px solid rgb(241, 233, 233);
+   }
+
+   /* Gridlayout */
+        
+        .gridlayout {
+            display: grid;
+            grid-template-columns: 3fr 3fr 3fr;
+            grid-template-rows: 3fr 3fr 3fr;
+            background-color: white;
+            gap: 10px; 
+            width: 400px;
+            height: 400px;
+        }
+
+        .gridlayout > div{
+          padding: 10px;
+          border: 1px solid black;
+        }
+
+        .colour1{
+          background-color: red;
+          height: 100px;
+          width: 100px;
+        }
+        .colour2{
+          background-color: orangered;
+           height: 100px;
+          width: 100px;
+        }
+
+        .colour3{
+          background-color: orange;
+           height: 100px;
+          width: 100px;
+        }
+        .colour4{
+          background-color: yellow;
+           height: 100px;
+          width: 100px;
+        }
+        .colour5{
+          background-color: green;
+           height: 100px;
+          width: 100px;
+        }
+        .colour6{
+          background-color: blue;
+           height: 100px;
+          width: 100px;
+        }
+        .colour7{
+          background-color: indigo;
+           height: 100px;
+          width: 100px;
+        }
+        .colour8{
+          background-color: rgb(61, 6, 61);
+           height: 100px;
+          width: 100px;
+        }
+
+        .colour9{
+          background-color: black;
+           height: 100px;
+          width: 100px;
+        }
+
+        /* grid_gallary */
+        .grid_gallary{
+            display: grid;
+            background-color: black;
+            grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+            grid-template-rows: repeat(auto-fit, minmax(190px, 1fr));
+            gap: 10px; 
+        }
+
+        .grid0 img{
+            height: 190px;
+            width: 190px; 
+            object-fit: cover;
+            transform: translate();
+            }
+        
+        .grid0 img:hover{
+            transform: rotate(10deg);
+           }
+
+         @media screen and (max-width: 400px) {
+          .grid0 {
+           grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+          }
+        } 
+
+         /* grid_card  */
+
+         .grid_card{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 10px; 
+            padding-top: 120px;
+         }
+
+          .cards img{
+            height: 250px;
+            width: 200px; 
+            transform: translate();
+          }
+
+          .cards h3{
+            margin-left: 50px;
+            background-color: rgb(249, 216, 27);
+            border-radius: 5px;
+            text-align: center;
+            height: 30px;
+            width: 100px;
+            transform: translate();
+          }
+
+          .cards h3:hover{
+            transform: skew(30deg);
+          }
+        
+          .cards p{
+            text-align: center;
+            width: 200px;
+          }
+
+           @media screen and (max-width: 400px) {
+          .cards {
+           grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+          }
+        } 
+
+        .section{
+         background-color: rgb(185, 185, 55);
+         height: 800px;
+         width: 1200px;
+        }
+
+        .header{
+          
+        }
+</style>
+
+<body>
+
+  <!-- gridcontanier -->
+<div class="gridcontanier">
+    <div class="image_grid"><img src="image1.jpg"></div>
+    <div class="image_grid"><img src="image2.jpg"></div>
+    <div class="image_grid"><img src="image3.jpg"></div>
+    <div class="image_grid"><img src="image4.jpg"></div>
+    <div class="image_grid"><img src="image5.jpg"></div>
+    <div class="image_grid"><img src="image6.jpg"></div>
+    <div class="image_grid"><img src="image7.jpg"></div>
+    <div class="image_grid"><img src="image8.jpg"></div>
+    <div class="image_grid"><img src="image9.jpg"></div>
+  </div>
+
+<br>
+<br>
+
+<!-- gridlayout -->
+  <div class="gridlayout">
+    <div class="colour1"></div>
+    <div class="colour2"></div>
+    <div class="colour3"></div>
+    <div class="colour4"></div>
+    <div class="colour5"></div>
+    <div class="colour6"></div>
+    <div class="colour7"></div>
+    <div class="colour8"></div>
+    <div class="colour9"></div>  
+  </div> 
+
+  <br>
+  <br>
+
+  <!-- grid_gallary -->
+  <div class="grid_gallary" >
+    <div class="grid0"><img src="grid1.jpg"></div>
+    <div class="grid0"><img src="grid2.jpg"></div>
+    <div class="grid0"><img src="grid3.jpg"></div>
+    <div class="grid0"><img src="grid4.jpg"></div>
+    <div class="grid0"><img src="grid5.jpg"></div>
+    <div class="grid0"><img src="grid6.jpg"></div>
+    <div class="grid0"><img src="grid7.jpg"></div>
+    <div class="grid0"><img src="grid8.jpg"></div>
+    <div class="grid0"><img src="grid9.jpg"></div>
+    <div class="grid0"><img src="grid10.jpg"></div>
+    <div class="grid0"><img src="grid11.jpg"></div>
+    <div class="grid0"><img src="grid12.jpg"></div>
+  </div>
+
+  
+  <!-- grid_card -->
+
+  <div class="grid_card">
+    <div class="cards">
+      <img src="acard.jpg"/>
+      <h3>ACE</h3>
+      <p>The Ace card is one of the most important cards in a deck of playing cards, regardless of the specific game being played. It is typically the highest-ranking card in the deck, and is often associated with power, strength, and opportunity.</p>
+    </div>
+
+    <div class="cards">
+      <img src="jcard.jpg"/>
+      <h3>JACK</h3>
+      <p>Jacks are face cards in a deck of playing cards. They usually depict a young man or boy and are the highest-ranking card in many games. In some games, jacks are used as wild cards, which means they can represent any other card in the deck. </p>
+    </div>
+
+    <div class="cards">
+      <img src="kcard.jpg"/>
+      <h3>KING</h3>
+      <P>The king is a playing card with a picture of a king displayed on it. The king is usually the highest-ranking face card. In the French version of playing cards and tarot decks, the king immediately outranks the queen. </P>
+    </div>
+
+    <div class="cards">
+      <img src="qcard.jpg"/>
+      <h3>QUEEN</h3>
+      <p>The Queen is a playing card with a picture of a queen on it. In French playing cards, the usual rank of a queen is as if it were 12, that is, between the King and the Jack.</p>
+    </div>
+  </div>
+
+<br>
+<br>
+
+  <!-- grid dashboard -->
+
+  <!-- <div class="section">
+    <div class="header">Header</div>
+    <div class="navigation">
+        <nav class="menu">
+          <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <main>
+          <h1>Main Content</h1>
+          <p>This is the main content of the page.</p>
+        </main>
+    </div>
+    <div class="aside">Aside</div>
+    <div class="footer">Footer</div>
+  </div>
+</body>
+</html> -->

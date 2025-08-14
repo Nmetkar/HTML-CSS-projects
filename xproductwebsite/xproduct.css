@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.xproduct{
+    height: 60px;
+     background-color: #2C3E50;
+     position: relative;
+    position: sticky;
+     top: 0;
+     z-index: 1;   
+}
+
+.xproduct_container{
+    display: flex;
+    justify-content: space-between;
+     position: sticky;
+     top: 0;
+     z-index: 1;
+}
+
+.xprdouct_name{
+    color: white;
+    padding: 20px;
+}
+
+.xproduct_items div{
+    color: white;
+     display: inline-block;
+     padding: 20px;
+}
+
+.xproduct_container1 {
+    height: 200px;
+    background-color: #ECF0F1;
+}
+
+.heading{
+    color: #2C3E50; 
+    position:absolute;
+    
+     top: 100px; 
+     left: 20px;
+}
+
+.para{
+    position:absolute;
+     top: 150px; 
+     left: 20px;
+}
+
+.xprdouct_image img{
+    position:absolute; 
+    top: 90px; 
+    right: 200px; 
+    height: 150px; 
+    width: 200px; 
+    border-radius: 5px 5px 5px 5px;
+}
+.x_button{
+    position:absolute;
+    top: 180px; 
+    left: 20px;
+   width: 100px;
+    height: 30px;
+    border: 1px solid #1ABC9C;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    background-color: #1ABC9C ;
+    
+}
+
+
+.xproduct_Multi{
+    display: inline-block;
+    background-color: #EAFAF1;
+    height: 60px;
+    width: 180px;
+     margin-top: 30px; 
+     margin-left: 20px; 
+   border-left: 6px solid #1ABC9C;
+   border-radius: 4px 4px 4px 4px;
+   text-align: center;
+   padding: 20px;
+}
+
+ .gototop{
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            background-color: black;
+            color: white;
+            width: 100px;
+            padding: 20px;
+        }
+
+.xproduct_container2{
+    
+    height: 400px;
+    background-color: #ECF0F1;
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.xproduct_container_3x {
+    background-color: white;
+    height: 80px;
+    width: 96%;
+    margin-top: 15px;
+    margin-left: 20px;
+   border-left: 6px solid lightskyblue;
+   border-radius: 4px 4px 4px 4px;
+   
+}
+
+.xproduct_S{
+    display: flex;
+    padding: 30px;
+}
+
+.xprdouct_footer {
+    background-color: #2C3E50;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    flex-wrap: wrap; /* For responsiveness */
+}
+
+.footer_section {
+    min-width: 200px;
+}
+
+.footer_section h3 {
+    margin-bottom: 15px;
+}
+
+.footer_section ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.footer_section ul li {
+    margin-bottom: 8px;
+}
+
+.footer_section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer_section ul li a:hover {
+    color: yellow;
+}
